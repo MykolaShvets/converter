@@ -1,0 +1,18 @@
+<div class="converter-body__container">
+  <form class="converter__form">
+    <label> Enter amount:
+      <input type="number" min="0" [value]="amount" (input)="convert($event)">
+      <select name="currencyFrom" (input)="selectCurrencyFrom($event)">
+        <option value="UAH">UAH</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select></label>
+    <label> Result:
+      <input type="number" min="0" [value]="result" (input)="convertRevert($event)">
+      <select name="currencyTo" (input)="selectCurrencyTo($event)">
+        <option value="UAH">UAH</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select></label>
+  </form>
+</div>

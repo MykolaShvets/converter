@@ -1,0 +1,14 @@
+.header__container {
+  margin-top: 10px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 60px;
+}
